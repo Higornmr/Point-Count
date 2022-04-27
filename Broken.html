@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title> Contador de Brokens</title>
+    <style type="text/css">
+        body {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="imagem-meio">
+            <h1>Digite o ultimo valor de broken antes da quebra</h1>
+            <p id="exemplo-broken">Exemplo:</p>
+            <img id="quebra-da-broken" src="./Imagem/broken oddish.png" alt="quebra-da-broken">
+            <p id="digite-2">Você digitaria 2</p>
+            <p id="soma-de-broken">Some a sua quantidade de broken.</p>
+        </div>
+
+        <form>
+
+        </form>
+
+
+        <form>
+            <div id="caixa-da-broken">
+                <h2>Numero da broken: </h2>
+                <input type="text" name="broken" maxlength="4" id="broken" /><br>
+                <input type="hidden" id="secondNumber" maxlength="2" value="7.8" /><br>
+                <input class="fade" type="button" id="calcular" onClick="multipiply(7.8)" Value="Calcular" />
+
+                <p id="a-broken">A broken é: <br>
+                    <span id="result"></span>
+                </p>
+            </div>
+        </form>
+
+
+    </div>
+
+    <script>
+        function multipiply() {
+            num1 = document.getElementById(
+                "broken").value;
+            num2 = document.getElementById(
+                "secondNumber").value;
+            document.getElementById(
+                "result").innerHTML = num1 * num2;
+        }
+    </script>
+
+</body>
+
+</html>
