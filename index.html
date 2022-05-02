@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Nunito:ital@1&family=Open+Sans:wght@400;600&family=Oswald&display=swap" rel="stylesheet">
     <title> Point Count </title>
     <style type="text/css">
         body {
@@ -17,21 +20,43 @@
 <body>
     <div id="container">
         <div id="imagem-meio">
-            <h1>Digite o ultimo valor de broken antes da quebra</h1>
+            <h1> Digite o último valor de pontos antes da quebra (1/10000). </h1>
             <p id="exemplo-broken">Exemplo:</p>
             <img id="quebra-da-broken" src="./Imagem/broken oddish.png" alt="quebra-da-broken">
             <p id="digite-2">Você digitaria 2</p>
-            <p id="soma-de-broken">Some a sua quantidade de broken.</p>
+            <p id="soma-de-broken">Some a sua quantidade de pontos.</p>
         </div>
-
-        <form>
-
-        </form>
+        
+        <div class="table">
+            <table>
+                <tr>
+                    <th id="header-table">Tabela de pontos referentes as Balls:</th>
+                </tr>
+                <tr>
+                    <td class="ball"> Pokeball </td>
+                    <td class="score"> 01 pontos </td>
+                </tr>
+                <tr>
+                    <td class="ball"> Great ball </td>
+                    <td class="score"> 02 pontos </td>
+                </tr>
+                <tr>
+                    <td class="ball"> Ultra ball </td>
+                    <td class="score"> 03 pontos </td>
+                </tr>
+                <tr>
+                    <td class="ball"> Mastery ball </td>
+                    <td class="score"> 04 pontos </td>
+                </tr>
+            </table>
+        </div>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/vWUMJ18QveE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        ></iframe>
 
 
         <form>
             <div id="caixa-da-broken">
-                <h2>Numero da broken: </h2>
+                <h2>O número de pontos da broken: </h2>
                 <input type="text" name="broken" maxlength="4" id="broken" /><br>
                 <input type="hidden" id="secondNumber" maxlength="2" value="7.8" /><br>
                 <input class="fade" type="button" id="calcular" onClick="multipiply(7.8)" Value="Calcular" />

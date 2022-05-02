@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -37,6 +38,21 @@ p {
     cursor: pointer;
 }
 
+.table {
+    margin-left:  450px;
+    border-style: outset;
+    background-color: white;
+    display: inline-block;
+    border-color: black;
+}
+iframe{
+    display: inline-block;
+    margin-left:390px;
+}
+
+#header-table {
+    text-align: center;
+}
 
 #imagem-meio {
     padding: 28px 10px;
@@ -47,8 +63,9 @@ p {
     padding: 10px 0px;
 }
 #caixa-da-broken {
-    padding: 20px 0px;
+    
     text-align: center;
+    font-weight: 600;
 }
 
 
@@ -58,25 +75,31 @@ p {
 }
 #broken {
     text-align: right;
-    padding: 10px
+    padding: 2px;
+    border-radius: 9px;
+    font-weight: 600;
+    width: 100px;
+
+
     }
 
 #a-broken{
     font-size: 30px;
     padding: 0px;
+   
 }
 
 .fade:hover
 {
-        opacity:0.8;
+        opacity:0.9;
+        
 }
 #result {
     font-size: 20px;
     padding: 10px;
     color: black;
+    font-weight: 600;
 }
 
 
-
-    
 
