@@ -3,28 +3,33 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Open Sans', sans-serif;
+color: white;
 }
 
 h1 {
-   color: black;
    text-align: center;
+   -webkit-text-stroke: 1px rgb(19, 18, 18);
 }
 
-p {
-    color: black;
-}
 #quebra-da-broken {
     padding: 5px 0px;
 }
-#container {
-    background: url("./Imagem/background.png");
-}
-#exemplo-broken {
-    color: black;
-    font-size: 20px;
-    padding: 10px;
 
+#container {
+    background: url("./Imagem/dejr7xo-3d3339c5-10a6-4559-b4b3-42ff5f446277.gif");
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-size: cover;
 }
+
+#exemplo-broken {
+    font-size: 30px;
+    padding: 15px;
+    -webkit-text-stroke: 1px rgb(19, 18, 18);
+    font-weight: 600;
+}
+
 #calcular {
     background: #a60907;
     color: white;
@@ -39,67 +44,98 @@ p {
 }
 
 .table {
-    margin-left:  450px;
+    width: 41%;
     border-style: outset;
-    background-color: white;
-    display: inline-block;
-    border-color: black;
-}
-iframe{
-    display: inline-block;
-    margin-left:390px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    margin-top: 60px;
+    border-radius: 15px; 
 }
 
 #header-table {
     text-align: center;
 }
 
+
+
+iframe{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 110px;
+    margin-bottom: -136px;
+    border-radius: 10px;
+  
+}
+
+#all-balls{
+    margin-top: 16px;
+    margin-right: 25px;
+    display: inline;
+    margin-left: 0;
+  }
+.pokeball{
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
+
 #imagem-meio {
     padding: 28px 10px;
     text-align: center;
 }
+
 #digite-2{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 0px;
-}
-#caixa-da-broken {
-    
-    text-align: center;
+    -webkit-text-stroke: 1px rgb(19, 18, 18);
     font-weight: 600;
 }
 
+#caixa-da-broken {
+    text-align: center;
+    font-weight: 600; 
+}
 
 #soma-de-broken {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 0px;
+    -webkit-text-stroke: 1px rgb(19, 18, 18);
+    font-weight: 600;   
 }
+
 #broken {
     text-align: right;
     padding: 2px;
     border-radius: 9px;
     font-weight: 600;
     width: 100px;
-
-
     }
 
 #a-broken{
     font-size: 30px;
-    padding: 0px;
-   
+    padding: 0px; 
 }
 
 .fade:hover
 {
-        opacity:0.9;
-        
+        opacity:0.9;    
 }
 #result {
     font-size: 20px;
     padding: 10px;
-    color: black;
     font-weight: 600;
 }
 
+#link-tabela{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
 
 
