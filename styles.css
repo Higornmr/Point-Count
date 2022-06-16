@@ -100,13 +100,15 @@ iframe{
 #caixa-da-broken {
     text-align: center;
     font-weight: 600; 
+    
 }
 
 #soma-de-broken {
     font-size: 30px;
     padding: 10px 0px;
     -webkit-text-stroke: 1px rgb(19, 18, 18);
-    font-weight: 600;   
+    font-weight: 600; 
+  
 }
 
 #broken {
@@ -115,6 +117,7 @@ iframe{
     border-radius: 9px;
     font-weight: 600;
     width: 100px;
+    color: black;
     }
 
 #a-broken{
